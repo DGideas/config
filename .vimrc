@@ -16,3 +16,7 @@ set fencs=utf-8,usc-bom,euc-jp,gb18030,gbk,gb2312,cp936
 "编辑 部分设置
 set history=100 "历史记录100行
 set confirm "关闭文件时确认
+set autoindent "继承前一行的缩进方式
+set smartindent "自动缩进
+set cindent "使用C样式的缩进
+set noexpandtab "不使用空格代替制表符
