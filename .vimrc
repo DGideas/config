@@ -10,8 +10,9 @@ set showcmd "显示命令
 set ruler "显示状态行
 set laststatus=2 "拉伸状态行
 set statusline=\ %<%F[%1*%M%*%n%R%H]%=\ %y\ %0(%{&fileformat}\ [%{(&fenc==\"\"?&enc:&fenc).(&bomb?\",BOM\":\"\")}]\ %c:%l/%L%)
-set showmatch "高亮匹配的括号等
-set matchtime=1 "匹配括号高亮的时间(1/10s)
+"显示Tab
+set list
+set listchars=tab:\|\ ,trail:.,extends:>,precedes:<
 
 "文件 部分设置
 set fenc=utf-8 "设置默认解码
@@ -23,9 +24,7 @@ set tabstop=4 "将Tab间隙设为4
 set softtabstop=4 "使得按退格键时可以一次删掉4个空格
 set history=100 "历史记录100行
 set confirm "关闭文件时确认
-set ai "继承前一行的缩进方式
-set si "智能缩进
-set cindent "使用C样式的缩进
+set autoindent "自动对齐
 set noexpandtab "不使用空格代替制表符
 set noerrorbells "不让vim响铃
 set whichwrap+=<,>,h,l "退格键和方向键可以换行
