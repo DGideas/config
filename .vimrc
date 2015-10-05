@@ -11,6 +11,7 @@ set tabstop=4 "将Tab间隙设为4
 set incsearch "输入搜索内容时就显示搜索结果
 set hlsearch "高亮搜索
 set showmatch "高亮匹配的括号等
+set matchtime=1 "匹配括号高亮的时间(1/10s)
 
 "文件 部分设置
 set fenc=utf-8 "设置默认解码
