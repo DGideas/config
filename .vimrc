@@ -21,7 +21,6 @@ set autoread "当文件在外部被修改时，自动重新读取
 "编辑 部分设置
 set tabstop=4 "将Tab间隙设为4
 set softtabstop=4 "使得按退格键时可以一次删掉4个空格
-set smarttab "SmartTab功能
 set history=100 "历史记录100行
 set confirm "关闭文件时确认
 set ai "继承前一行的缩进方式
