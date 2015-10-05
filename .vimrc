@@ -5,6 +5,7 @@ syntax enable "添加语法高亮显示
 syntax on
 colo desert "调整主题为沙漠
 set number "显示行号
+set scrolloff=6 "上下可视行数
 set showcmd "显示命令
 set ruler "显示状态行
 set laststatus=2 "拉伸状态行
