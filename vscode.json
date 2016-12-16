@@ -1,0 +1,12 @@
+{
+	"editor.fontFamily": "Consolas, 'Ubuntu mono', 'Courier New', monospace",
+	//"editor.fontSize": 25,
+	"editor.insertSpaces": false,
+	"editor.renderWhitespace": true,
+	"editor.folding": true,
+	"editor.tabSize": 4,
+	"editor.rulers": [0],
+	"editor.renderControlCharacters": true,
+	"editor.renderIndentGuides": true,
+	"editor.cursorBlinking": "blink"
+}
