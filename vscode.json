@@ -10,5 +10,7 @@
 	"editor.renderIndentGuides": true,
 	"editor.cursorBlinking": "blink",
 	"editor.acceptSuggestionOnEnter": false,
-	"update.channel": "none"
+	"update.channel": "none",
+	"editor.detectIndentation": true,
+	"window.reopenFolders": "none"
 }
