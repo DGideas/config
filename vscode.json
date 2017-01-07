@@ -12,5 +12,6 @@
 	"editor.acceptSuggestionOnEnter": false,
 	"update.channel": "none",
 	"editor.detectIndentation": true,
-	"window.reopenFolders": "none"
+	"window.reopenFolders": "none",
+	"files.hotExit": false
 }
