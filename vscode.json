@@ -14,5 +14,8 @@
 	"update.channel": "none",
 	"editor.detectIndentation": true,
 	"window.reopenFolders": "none",
-	"editor.codeLens": true
+	"editor.codeLens": true,
+	"editor.formatOnType": false,
+	"editor.formatOnPaste": true,
+	"editor.wrappingIndent": "same"
 }
