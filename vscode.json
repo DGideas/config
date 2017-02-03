@@ -6,6 +6,7 @@
 	"editor.folding": true,
 	"editor.tabSize": 4,
 	"editor.rulers": [0, 80],
+	"editor.lineNumbers": "on",
 	"editor.renderControlCharacters": true,
 	"editor.renderIndentGuides": true,
 	"editor.cursorBlinking": "blink",
@@ -13,5 +14,5 @@
 	"update.channel": "none",
 	"editor.detectIndentation": true,
 	"window.reopenFolders": "none",
-	"files.hotExit": false
+	"editor.codeLens": true
 }
