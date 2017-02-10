@@ -17,5 +17,6 @@
 	"editor.codeLens": true,
 	"editor.formatOnType": false,
 	"editor.formatOnPaste": true,
-	"editor.wrappingIndent": "same"
+	"editor.wrappingIndent": "same",
+	"files.hotExit": "off"
 }
