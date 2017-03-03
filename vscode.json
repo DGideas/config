@@ -19,5 +19,7 @@
 	"editor.formatOnPaste": true,
 	"editor.wrappingIndent": "same",
 	"files.hotExit": "off",
-	"git.confirmSync": false
+	"git.confirmSync": false,
+	"editor.minimap.enabled": true,
+	"editor.minimap.maxColumn": 80
 }
