@@ -28,6 +28,8 @@
 	"workbench.experimental.colorCustomizations": {
 		"editorCursor": "#bfbfbf", //#aaaaaa
 		"editorLineNumbers": "#7f7f7f", //#555555
-		"editorLineHighlight": "#232323"
+		"editorLineHighlight": "#232323",
+		"editorIndentGuides": "#5f5f5f",
+		"editorWhitespaces": "#4f4f4f"
 	}
 }
