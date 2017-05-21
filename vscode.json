@@ -1,7 +1,7 @@
 {
 	//dgideas@outlook.com
 	"editor.fontFamily": "Consolas, 'Ubuntu mono', 'Courier New', monospace",
-	//"editor.fontSize": 25,
+	//"editor.fontSize": 16,
 	"editor.insertSpaces": false,
 	"editor.renderWhitespace": "all",
 	"editor.folding": true,
@@ -25,11 +25,12 @@
 	"editor.minimap.enabled": true,
 	"editor.minimap.maxColumn": 80,
 	// for Default Dark+ Theme
-	"workbench.experimental.colorCustomizations": {
-		"editorCursor": "#bfbfbf", //#aaaaaa
-		"editorLineNumbers": "#7f7f7f", //#555555
-		"editorLineHighlight": "#232323",
-		"editorIndentGuides": "#5f5f5f",
-		"editorWhitespaces": "#4f4f4f"
-	}
+	"workbench.colorCustomizations": {
+		"editorCursor.foreground": "#bfbfbf", //#aaaaaa
+		"editorLineNumber.foreground": "#7f7f7f", //#555555
+		"editor.lineHighlightBackground": "#232323",
+		"editorIndentGuide.background": "#5f5f5f",
+		"editorWhitespace.foreground": "#575757"
+	},
+	"typescript.check.npmIsInstalled": false
 }
