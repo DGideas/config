@@ -1,20 +1,19 @@
 {
 	//dgideas@outlook.com
 	"editor.fontFamily": "Consolas, 'Ubuntu mono', 'Courier New', monospace",
-	//"editor.fontSize": 16,
+	//"editor.fontSize": 32,
 	"editor.insertSpaces": false,
 	"editor.renderWhitespace": "all",
 	"editor.folding": true,
 	"editor.tabSize": 4,
-	"editor.rulers": [0, 80],
+	"editor.rulers": [0, 76, 80],
 	"editor.lineNumbers": "on",
 	"editor.renderControlCharacters": true,
 	"editor.renderIndentGuides": true,
 	"editor.cursorBlinking": "blink",
-	"editor.acceptSuggestionOnEnter": false,
+	"editor.acceptSuggestionOnEnter": "off",
 	"update.channel": "none",
 	"editor.detectIndentation": true,
-	"window.reopenFolders": "none",
 	"editor.codeLens": true,
 	"editor.formatOnType": false,
 	"editor.formatOnPaste": false,
@@ -32,5 +31,6 @@
 		"editorIndentGuide.background": "#5f5f5f",
 		"editorWhitespace.foreground": "#575757"
 	},
-	"typescript.check.npmIsInstalled": false
+	"typescript.check.npmIsInstalled": false,
+	"window.restoreWindows": "none"
 }
