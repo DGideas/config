@@ -6,7 +6,7 @@
 	"editor.renderWhitespace": "all",
 	"editor.folding": true,
 	"editor.tabSize": 4,
-	"editor.rulers": [0, 76, 80],
+	"editor.rulers": [0, 80],
 	"editor.lineNumbers": "on",
 	"editor.renderControlCharacters": true,
 	"editor.renderIndentGuides": true,
@@ -32,5 +32,12 @@
 		"editorWhitespace.foreground": "#575757"
 	},
 	"typescript.check.npmIsInstalled": false,
-	"window.restoreWindows": "none"
+	"window.restoreWindows": "none",
+	"editor.minimap.showSlider": "always",
+	"editor.mouseWheelZoom": false,
+	"editor.dragAndDrop": false,
+	"window.zoomLevel": 0,
+	"extensions.ignoreRecommendations": false,
+	"C_Cpp.intelliSenseEngine": "Default",
+	"C_Cpp.intelliSenseEngineFallback": "Enabled"
 }
