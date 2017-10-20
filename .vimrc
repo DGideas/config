@@ -1,35 +1,42 @@
-"author=DGideas
-"显示 部分设置
-set t_Co=256 "添加对于256色的支持
-syntax enable "添加语法高亮显示
-syntax on
-colo desert "调整主题为沙漠
-set number "显示行号
-set scrolloff=6 "上下可视行数
-set showcmd "显示命令
-set ruler "显示状态行
-set laststatus=2 "拉伸状态行
-set statusline=\ %<%F[%1*%M%*%n%R%H]%=\ %y\ %0(%{&fileformat}\ [%{(&fenc==\"\"?&enc:&fenc).(&bomb?\",BOM\":\"\")}]\ %c:%l/%L%)
-"显示Tab
-set list
-set listchars=tab:\|\ ,trail:.,extends:>,precedes:<
-
-"文件 部分设置
-set fenc=utf-8 "设置默认解码
-set fencs=utf-8,usc-bom,euc-jp,gb18030,gbk,gb2312,cp936
-set autoread "当文件在外部被修改时，自动重新读取
-
-"编辑 部分设置
-set tabstop=4 "将Tab间隙设为4
-set softtabstop=4 "使得按退格键时可以一次删掉4个空格
-set history=100 "历史记录100行
-set confirm "关闭文件时确认
-set autoindent "自动对齐
-set noexpandtab "不使用空格代替制表符
-set noerrorbells "不让vim响铃
-set whichwrap+=<,>,h,l "退格键和方向键可以换行
-
-"搜索 部分设置
-set incsearch "输入搜索内容时就显示搜索结果
-set hlsearch "高亮搜索
-set ignorecase smartcase "搜索时忽略大小写但在有一个或以上大写字母时仍保持对大小写敏感 
+{
+	//dgideas@outlook.com
+	"editor.fontFamily": "Consolas, 'Ubuntu mono', 'Courier New', monospace ,'Droid Sans Fallback'",
+	//"editor.fontSize": 32,
+	"editor.insertSpaces": false,
+	"editor.renderWhitespace": "all",
+	"editor.folding": true,
+	"editor.tabSize": 4,
+	"editor.rulers": [0, 80],
+	"editor.lineNumbers": "on",
+	"editor.renderControlCharacters": true,
+	"editor.renderIndentGuides": true,
+	"editor.cursorBlinking": "blink",
+	"editor.acceptSuggestionOnEnter": "off",
+	"update.channel": "none",
+	"editor.detectIndentation": true,
+	"editor.codeLens": true,
+	"editor.formatOnType": false,
+	"editor.formatOnPaste": false,
+	"editor.wrappingIndent": "same",
+	"files.hotExit": "off",
+	"files.autoGuessEncoding": true,
+	"git.confirmSync": false,
+	"editor.minimap.enabled": true,
+	"editor.minimap.maxColumn": 80,
+	// for Default Dark+ Theme
+	"workbench.colorCustomizations": {
+		"editorCursor.foreground": "#bfbfbf", //#aaaaaa
+		"editorLineNumber.foreground": "#7f7f7f", //#555555
+		"editor.lineHighlightBackground": "#232323",
+		"editorIndentGuide.background": "#5f5f5f",
+		"editorWhitespace.foreground": "#575757"
+	},
+	"typescript.check.npmIsInstalled": false,
+	"window.restoreWindows": "none",
+	"editor.minimap.showSlider": "always",
+	"editor.mouseWheelZoom": false,
+	"editor.dragAndDrop": false,
+	"window.zoomLevel": 0,
+	"extensions.ignoreRecommendations": true,
+	"html.format.indentInnerHtml": true
+}
