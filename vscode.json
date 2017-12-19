@@ -40,6 +40,5 @@
 	"window.zoomLevel": 0,
 	"extensions.ignoreRecommendations": true,
 	"html.format.indentInnerHtml": true,
-	"C_Cpp.intelliSenseEngine": "Default",
 	"git.enableSmartCommit": true
 }
