@@ -29,7 +29,8 @@
 		"editorLineNumber.foreground": "#7f7f7f", //#555555
 		"editor.lineHighlightBackground": "#232323",
 		"editorIndentGuide.background": "#5f5f5f",
-		"editorWhitespace.foreground": "#575757"
+		"editorWhitespace.foreground": "#575757",
+		"editor.background": "#101010"
 	},
 	"typescript.check.npmIsInstalled": false,
 	"window.restoreWindows": "none",
@@ -38,5 +39,7 @@
 	"editor.dragAndDrop": false,
 	"window.zoomLevel": 0,
 	"extensions.ignoreRecommendations": true,
-	"html.format.indentInnerHtml": true
+	"html.format.indentInnerHtml": true,
+	"C_Cpp.intelliSenseEngine": "Default",
+	"git.enableSmartCommit": true
 }
