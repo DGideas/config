@@ -40,5 +40,6 @@
 	"window.zoomLevel": 0,
 	"extensions.ignoreRecommendations": true,
 	"html.format.indentInnerHtml": true,
-	"git.enableSmartCommit": true
+	"git.enableSmartCommit": true,
+	"html.autoClosingTags": false
 }
