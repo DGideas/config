@@ -1,0 +1,13 @@
+// dgideas@outlook.com
+[
+	{
+		"key": "home",
+		"command": "-selectFirstSuggestion",
+		"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+	},
+	{
+		"key": "end",
+		"command": "-selectLastSuggestion",
+		"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+	}
+]
