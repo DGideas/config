@@ -1,7 +1,7 @@
 {
-	//dgideas@outlook.com
+	// dgideas@outlook.com
 	"editor.fontFamily": "Consolas, 'Ubuntu mono', 'Courier New', monospace ,'Droid Sans Fallback'",
-	//"editor.fontSize": 32,
+	// "editor.fontSize": 20,
 	"editor.insertSpaces": false,
 	"editor.renderWhitespace": "all",
 	"editor.folding": true,
@@ -31,7 +31,7 @@
 		"editorIndentGuide.background": "#5f5f5f",
 		"editorWhitespace.foreground": "#575757",
 		"editor.background": "#101010",
-		"editorActiveLineNumber.foreground": "#99ddff"
+		"editorLineNumber.activeForeground": "#99ddff"
 	},
 	"typescript.check.npmIsInstalled": false,
 	"window.restoreWindows": "none",
@@ -44,5 +44,8 @@
 	"git.enableSmartCommit": true,
 	"html.autoClosingTags": false,
 	"git.ignoreMissingGitWarning": true,
-	"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe"
+	"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe",
+	"telemetry.enableTelemetry": false,
+	"terminal.integrated.enableBell": true,
+	"terminal.integrated.showExitAlert": false
 }
