@@ -1,7 +1,7 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\WSL]
-@="Bash Prompt Here"
+@="Linux Bash Here"
 "Icon"="%USERPROFILE%\\AppData\\Local\\lxss\\bash.ico"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\WSL\command]
