@@ -1,0 +1,3 @@
+# sudo ocpasswd -c /etc/ocserv/ocpasswd
+DGideas:*:$5$r2RZRu3LgoMvT9u1$KoANJ/MZZXf2FsuT8W8MmESXbFS38eVfUOlKbctXgV2
+jinghai:*:$5$cGUtbvVP4xY9Ld.u$S.NhWN3qCX9glgt5b2mh8T2ndtesgNacRknK2Wo/fu0
