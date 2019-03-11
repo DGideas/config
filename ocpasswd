@@ -1,6 +1,9 @@
 # sudo ocpasswd -c /etc/ocserv/ocpasswd
 # wget -q https://raw.githubusercontent.com/DGideas/config/master/ocpasswd -O /etc/ocserv/ocpasswd
-# jinghai 朱涛
+# 
+# jinghai
+# yulezhang
 DGideas:*:$5$r2RZRu3LgoMvT9u1$KoANJ/MZZXf2FsuT8W8MmESXbFS38eVfUOlKbctXgV2
 lg:*:$5$ou/eBMdy3Mf7HhsF$KiyW9SOr.02Ofyf8aAAKj9HRW5CRG5YNXx2rQFoMNP8
 jinghai:*:$5$cGUtbvVP4xY9Ld.u$S.NhWN3qCX9glgt5b2mh8T2ndtesgNacRknK2Wo/fu0
+yulezhang:*:$5$v79YMB2BwWoLbqFc$MxKAxHUEUoyUySa/HE4hFA7aaIFhuHd/js5fEn2fq0B
