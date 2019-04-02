@@ -11,4 +11,3 @@ rm /usr/sbin/aliyun-service
 rm /lib/systemd/system/aliyun.service
 rm -rf /usr/local/cloudmonitor
 deluser admin --remove-all-files -q
-rm -rf /usr/lib/accountsservice
