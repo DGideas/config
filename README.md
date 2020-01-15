@@ -3,6 +3,10 @@
 ```bash
 wget -qO- https://raw.githubusercontent.com/DGideas/config/master/linux_swap.sh | bash
 ```
+### 配置虚拟内存(2G)
+```bash
+wget -qO- https://raw.githubusercontent.com/DGideas/config/master/linux_swap_tiny.sh | bash
+```
 
 ## 新系统一键BBR
 ```bash
