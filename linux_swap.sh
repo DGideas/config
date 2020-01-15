@@ -1,8 +1,8 @@
-# Create Swapfile on Linux System(2G Default)
+# Create Swapfile on Linux System(4G)
 # wget -qO- https://raw.githubusercontent.com/DGideas/config/master/linux_swap.sh | bash
 cd /mnt
-# Create 2GiB of swap space
-dd if=/dev/zero of=swapfile bs=1M count=2048
+# Create 4GiB of swap space
+dd if=/dev/zero of=swapfile bs=1M count=4096
 mkswap swapfile
 chmod 0600 /mnt/swapfile
 swapon swapfile
