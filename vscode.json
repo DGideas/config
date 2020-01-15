@@ -49,5 +49,6 @@
 	"terminal.integrated.enableBell": true,
 	"terminal.integrated.showExitAlert": false,
 	"search.location": "panel",
-	"editor.trimAutoWhitespace": false
+	"editor.trimAutoWhitespace": false,
+	"editor.showFoldingControls": "always"
 }
