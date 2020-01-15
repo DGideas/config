@@ -3,7 +3,7 @@
 ```bash
 wget -qO- https://raw.githubusercontent.com/DGideas/config/master/linux_swap.sh | bash
 ```
-### 配置虚拟内存(2G)
+### 配置虚拟内存(1G) - 适用于小型虚拟主机
 ```bash
 wget -qO- https://raw.githubusercontent.com/DGideas/config/master/linux_swap_tiny.sh | bash
 ```
