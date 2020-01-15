@@ -1,5 +1,5 @@
 # DGideas配置文件及一键脚本
-## 配置虚拟内存(2G)
+## 配置虚拟内存(4G)
 ```bash
 wget -qO- https://raw.githubusercontent.com/DGideas/config/master/linux_swap.sh | bash
 ```
