@@ -47,5 +47,7 @@
 	"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe",
 	"telemetry.enableTelemetry": false,
 	"terminal.integrated.enableBell": true,
-	"terminal.integrated.showExitAlert": false
+	"terminal.integrated.showExitAlert": false,
+	"search.location": "panel",
+	"editor.trimAutoWhitespace": false
 }
