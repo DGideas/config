@@ -12,7 +12,7 @@
 	"editor.renderIndentGuides": true,
 	"editor.cursorBlinking": "blink",
 	"editor.acceptSuggestionOnEnter": "off",
-	"update.channel": "none",
+	"update.mode": "none",
 	"editor.detectIndentation": true,
 	"editor.codeLens": true,
 	"editor.formatOnType": false,
