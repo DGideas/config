@@ -28,10 +28,12 @@
 		"editorCursor.foreground": "#bfbfbf", //#aaaaaa
 		"editorLineNumber.foreground": "#7f7f7f", //#555555
 		"editor.lineHighlightBackground": "#232323",
+		"editor.lineHighlightBorder": "#2a2a2a",
 		"editorIndentGuide.background": "#5f5f5f",
 		"editorWhitespace.foreground": "#5f5f5f",
 		"editor.background": "#101010",
-		"editorLineNumber.activeForeground": "#99ddff"
+		"editorLineNumber.activeForeground": "#99ddff",
+		"terminal.background": "#300a24",
 	},
 	"typescript.check.npmIsInstalled": false,
 	"window.restoreWindows": "none",
