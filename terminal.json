@@ -44,5 +44,26 @@
 
     // Add any keybinding overrides to this array.
     // To unbind a default keybinding, set the command to "unbound"
-    "keybindings": []
+    "keybindings": [
+        {
+            "command": "newTab",
+            "keys": ["ctrl+t"]
+        },
+        {
+            "command": "closeTab",
+            "keys": ["ctrl+f4"]
+        },
+        {
+            "command": "nextTab",
+            "keys": ["alt+right"]
+        },
+        {
+            "command": "prevTab",
+            "keys": ["alt+left"]
+        },
+        {
+            "command": "toggleFullscreen",
+            "keys": ["alt+enter"]
+        }
+    ]
 }
