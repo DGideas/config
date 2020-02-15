@@ -18,9 +18,8 @@
             "background": "#300a24",
             "fontFace": "Ubuntu Mono",
             "fontSize": 15,
-            "useAcrylic": true,
-            "acrylicOpacity": 0.9,
-            "scrollbarState": "visible"
+            "scrollbarState": "visible",
+            "backgroundImageOpacity": 0.15
         },
         "list":
         [
