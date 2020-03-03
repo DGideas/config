@@ -1,13 +1,13 @@
 [Desktop Entry]
 Version=1.0
 Name=Example Application
-Comment=This is an example app entry.
-TryExec=/home/dgideas/example
+Type=Application
 Exec=/home/dgideas/example
 Icon=ubuntu
+Comment=This is an example app entry.
+TryExec=/home/dgideas/example
 Terminal=false
 StartupWMClass=ExampleClass
-Type=Application
 Categories=Chat;Network;Qt;
 MimeType=x-scheme-handler/tg;
 Keywords=example;ex;eap;app;
