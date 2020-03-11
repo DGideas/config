@@ -51,5 +51,6 @@
 	"terminal.integrated.showExitAlert": false,
 	"search.location": "panel",
 	"editor.trimAutoWhitespace": false,
-	"editor.showFoldingControls": "always"
+	"editor.showFoldingControls": "always",
+	"editor.selectionClipboard": false // Support for Linux middle-click selection
 }
