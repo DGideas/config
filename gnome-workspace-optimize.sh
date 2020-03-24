@@ -5,4 +5,7 @@
 gsettings set org.gnome.shell.app-switcher current-workspace-only true
 gsettings set org.gnome.shell.extensions.dash-to-dock isolate-workspaces true
 
-gsettings set org.gnome.nautilus.desktop trash-icon-visible false
+gsettings set org.gnome.nautilus.desktop trash-icon-visible false # brefore 19.10
+
+gsettings set org.gnome.shell.extensions.desktop-icons show-trash false # after 19.10
+gsettings set org.gnome.shell.extensions.desktop-icons show-home false
