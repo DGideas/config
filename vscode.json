@@ -52,5 +52,9 @@
 	"search.location": "panel",
 	"editor.trimAutoWhitespace": false,
 	"editor.showFoldingControls": "always",
-	"editor.selectionClipboard": false // Support for Linux middle-click selection
+	"editor.selectionClipboard": false, // Support for Linux middle-click selection
+	"gitlens.hovers.currentLine.over": "line",
+	"gitlens.codeLens.enabled": false,
+	"gitlens.statusBar.enabled": false,
+	"gitlens.defaultDateStyle": "absolute",
 }
