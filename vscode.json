@@ -47,6 +47,8 @@
 	"html.autoClosingTags": false,
 	"git.ignoreMissingGitWarning": true,
 	"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe",
+	"terminal.integrated.shell.linux": "/bin/bash",
+	"terminal.integrated.shell.osx": "/bin/bash",
 	"telemetry.enableTelemetry": false,
 	"terminal.integrated.enableBell": true,
 	"terminal.integrated.showExitAlert": false,
