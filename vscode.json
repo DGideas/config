@@ -49,6 +49,7 @@
 	"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe",
 	"terminal.integrated.shell.linux": "/bin/bash",
 	"terminal.integrated.shell.osx": "/bin/bash",
+	// "terminal.integrated.fontSize": 16,
 	"telemetry.enableTelemetry": false,
 	"terminal.integrated.enableBell": true,
 	"terminal.integrated.showExitAlert": false,
