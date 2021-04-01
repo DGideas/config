@@ -1,5 +1,5 @@
 [Unit]
-Description=Foobar Service
+Description=Foobar Service, just put me on /lib/systemd/system/
 After=network.target
 
 [Service]
