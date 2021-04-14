@@ -1,5 +1,5 @@
 [Unit]
-Description=Foobar Service, just put me on /lib/systemd/system/
+Description=Foobar Service, just put me on /lib/systemd/system/. If you want to keep application running, change Type to forking
 After=network.target
 
 [Service]
