@@ -31,6 +31,7 @@
 		"editor.lineHighlightBackground": "#232323",
 		"editor.lineHighlightBorder": "#2a2a2a",
 		"editorIndentGuide.background": "#5f5f5f",
+		"editorIndentGuide.activeBackground": "#909090",
 		"editorWhitespace.foreground": "#5f5f5f",
 		"editor.background": "#101010",
 		"editorLineNumber.activeForeground": "#99ddff",
