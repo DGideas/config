@@ -28,6 +28,11 @@ wget https://github.com/DGideas/config/raw/master/.vimrc -O ~/.vimrc
 wget https://github.com/DGideas/config/raw/master/.bashrc -O ~/.bashrc
 ```
 
+## .tmux.conf
+```bash
+wget https://github.com/DGideas/config/raw/master/.tmux.conf -O ~/.tmux.conf
+```
+
 ## 一键DD
 ```bash
 wget --no-check-certificate -qO InstallNET.sh 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh' && bash InstallNET.sh -dd '{DD包网址}'
