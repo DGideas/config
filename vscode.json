@@ -52,9 +52,9 @@
 	"terminal.integrated.shell.linux": "/bin/bash",
 	"terminal.integrated.shell.osx": "/bin/bash",
 	// "terminal.integrated.fontSize": 16,
-	"telemetry.enableTelemetry": false,
 	"terminal.integrated.enableBell": true,
 	"terminal.integrated.showExitAlert": false,
+	"terminal.integrated.gpuAcceleration": "on",
 	"search.location": "panel",
 	"editor.trimAutoWhitespace": false,
 	"editor.showFoldingControls": "always",
@@ -66,4 +66,5 @@
 	"gitlens.blame.format": "${date}, ${author|14}",
 	"gitlens.blame.dateFormat": "YYYY",
 	"workbench.editor.untitled.hint": "hidden", // 1.56+
+	"telemetry.enableTelemetry": false,
 }
