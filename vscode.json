@@ -10,7 +10,6 @@
 	"editor.rulers": [0, 80],
 	"editor.lineNumbers": "on",
 	"editor.renderControlCharacters": true,
-	"editor.renderIndentGuides": true,
 	"editor.cursorBlinking": "blink",
 	"editor.acceptSuggestionOnEnter": "off",
 	"update.mode": "none",
