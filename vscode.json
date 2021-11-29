@@ -4,7 +4,6 @@
 	// "editor.fontSize": 16,
 	// "terminal.integrated.fontSize": 16,
 	// "markdown.preview.fontSize": 16,
-	"editor.insertSpaces": false,
 	"editor.renderWhitespace": "all",
 	"editor.folding": true,
 	"editor.tabSize": 4,
