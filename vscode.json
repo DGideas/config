@@ -63,6 +63,6 @@
 	"gitlens.blame.format": "${date}, ${author|14}",
 	"gitlens.blame.dateFormat": "YYYY",
 	"workbench.editor.untitled.hint": "hidden", // 1.56+
-	"workbench.editor.untitled.experimentalLanguageDetection": false // 1.59+
-	"telemetry.enableTelemetry": false,
+	"workbench.editor.untitled.experimentalLanguageDetection": false, // 1.59+
+	"telemetry.telemetryLevel": "off",
 }
