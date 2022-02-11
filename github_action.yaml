@@ -12,6 +12,7 @@ jobs:
           git -C "${{github.workspace}}/${{github.event.repository.name}}" checkout ${{github.ref}}
       - name: Do Something
         run: |
+          cd ${{github.event.repository.name}}
           echo Something
       - name: Do xxx on master branch
         if: ${{github.ref_name == 'master' || github.ref_name == 'main'}}
