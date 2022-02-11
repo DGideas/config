@@ -1,5 +1,5 @@
 [Unit]
-Description=Foobar Service, just put me on /lib/systemd/system/ or $HOME/.config/systemd/user/. If you want to keep application running, change Type to forking
+Description=Just put me on /lib/systemd/system/ or $HOME/.config/systemd/user/, then systemctl enable <it>. If you want to keep application running, change Type to forking
 After=network.target
 
 [Service]
