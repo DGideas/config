@@ -3,7 +3,10 @@ on: [push, workflow_dispatch]
 
 jobs:
   unittest:
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        servers: [ubuntu-latest]
+    runs-on: ${{matrix.servers}}
     steps:
       - name: Checkout Repo
         run: |
