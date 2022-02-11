@@ -1,0 +1,22 @@
+name: Action Example
+on: [push, workflow_dispatch]
+
+jobs:
+  unittest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        run: |
+          rm -rf ${{github.event.repository.name}}
+          git clone https://${{github.repository_owner}}:${{github.token}}@github.com/${{github.repository}}
+          git -C "${{github.workspace}}/${{github.event.repository.name}}" checkout ${{github.ref}}
+      - name: Do Something
+        run: |
+          echo Something
+      - name: Do xxx on master branch
+        if: ${{github.ref_name == 'master' || github.ref_name == 'main'}}
+        run: |
+          echo xxx
+      - name: Cleanup
+        run: |
+          rm -rf ${{github.event.repository.name}}
