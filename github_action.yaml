@@ -1,5 +1,12 @@
 name: Action Example
-on: [push, workflow_dispatch]
+on:
+  push:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Enter your name:'     
+        required: true
+        default: 'Alice'
 
 jobs:
   unittest:
@@ -17,10 +24,10 @@ jobs:
         run: |
           cd ${{github.event.repository.name}}
           echo Something
-      - name: Do xxx on master branch
+      - name: Do greeting on master branch
         if: ${{github.ref_name == 'master' || github.ref_name == 'main'}}
         run: |
-          echo xxx
+          echo Hello, ${{github.event.inputs.name}}
       - name: Cleanup
         run: |
           rm -rf ${{github.event.repository.name}}
