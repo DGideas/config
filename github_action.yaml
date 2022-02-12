@@ -7,7 +7,11 @@ on:
         description: 'Enter your name:'     
         required: true
         default: 'Alice'
-
+      sex:
+        type: choice
+        options: 
+        - male
+        - female
 jobs:
   unittest:
     strategy:
@@ -27,7 +31,7 @@ jobs:
       - name: Do greeting on master branch
         if: ${{github.ref_name == 'master' || github.ref_name == 'main'}}
         run: |
-          echo Hello, ${{github.event.inputs.name}}
+          echo Hello, ${{github.event.inputs.name}}(${{github.event.inputs.sex}})
       - name: Cleanup
         run: |
           rm -rf ${{github.event.repository.name}}
