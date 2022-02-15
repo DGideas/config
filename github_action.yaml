@@ -10,8 +10,8 @@ on:
       sex:
         type: choice
         options: 
-        - male
-        - female
+          - male
+          - female
 jobs:
   unittest:
     strategy:
