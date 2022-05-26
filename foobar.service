@@ -1,6 +1,7 @@
 [Unit]
 Description=Just put me on /lib/systemd/system/, then systemctl enable <it>. If you want to keep application running, change Type to forking. If you want anyone run the service, using visudo and add ALL ALL=NOPASSWD: /usr/bin/systemctl.
 After=network.target
+Wants=xxx.service
 
 [Service]
 Type=simple
@@ -9,6 +10,7 @@ Restart=on-failure
 RestartSec=5s
 WorkingDirectory=/
 ExecStart=/bin/bash -c "echo foobar"
+Environment=Hello=world
 
 [Install]
 WantedBy=multi-user.target
