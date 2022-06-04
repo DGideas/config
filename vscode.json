@@ -66,4 +66,5 @@
 	"workbench.editor.untitled.experimentalLanguageDetection": false, // 1.59+
 	"telemetry.telemetryLevel": "off",
 	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.bracketPairColorization.enabled": false,
 }
