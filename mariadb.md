@@ -1,6 +1,6 @@
 注：同样适用于 MySQL。
 
-```
+```sql
 DROP USER 'root'@'localhost';
 CREATE USER 'root'@'%' IDENTIFIED BY 'Passw0rd';
 SET PASSWORD FOR 'root'@'%' = PASSWORD('Passw0rd'); // MySQL 8 无需执行此命令
