@@ -3,7 +3,7 @@
 ```
 DROP USER 'root'@'localhost';
 CREATE USER 'root'@'%' IDENTIFIED BY 'Passw0rd';
-SET PASSWORD FOR 'root'@'%' = PASSWORD('Passw0rd');
+SET PASSWORD FOR 'root'@'%' = PASSWORD('Passw0rd'); // MySQL 8 无需执行此命令
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 ```
