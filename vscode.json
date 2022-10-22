@@ -68,4 +68,8 @@
 	"editor.unicodeHighlight.ambiguousCharacters": false,
 	"editor.bracketPairColorization.enabled": false,
 	"terminal.integrated.localEchoEnabled": "off",
+	"[rust]": {
+		"editor.defaultFormatter": "rust-lang.rust-analyzer",
+		"editor.formatOnSave": true
+	}
 }
