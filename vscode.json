@@ -46,9 +46,6 @@
 	"git.enableSmartCommit": true,
 	"html.autoClosingTags": false,
 	"git.ignoreMissingGitWarning": true,
-	"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe",
-	"terminal.integrated.shell.linux": "/bin/bash",
-	"terminal.integrated.shell.osx": "/bin/bash",
 	// "terminal.integrated.fontSize": 16,
 	"terminal.integrated.enableBell": true,
 	"terminal.integrated.showExitAlert": false,
@@ -63,7 +60,6 @@
 	"gitlens.blame.format": "${date}, ${author|14}",
 	"gitlens.blame.dateFormat": "YYYY",
 	"workbench.editor.untitled.hint": "hidden", // 1.56+
-	"workbench.editor.untitled.experimentalLanguageDetection": false, // 1.59+
 	"telemetry.telemetryLevel": "off",
 	"editor.unicodeHighlight.ambiguousCharacters": false,
 	"editor.bracketPairColorization.enabled": false,
@@ -71,5 +67,8 @@
 	"[rust]": {
 		"editor.defaultFormatter": "rust-lang.rust-analyzer",
 		"editor.formatOnSave": true
-	}
+	},
+	"rust-analyzer.inlayHints.typeHints.enable": false,
+	"rust-analyzer.inlayHints.renderColons": false,
+	"rust-analyzer.inlayHints.parameterHints.enable": false
 }
