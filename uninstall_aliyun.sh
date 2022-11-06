@@ -155,3 +155,8 @@ rm /usr/sbin/aliyun-service
 rm /lib/systemd/system/aliyun.service
 rm -rf /usr/local/cloudmonitor
 deluser admin --remove-all-files -q
+
+
+/usr/local/share/assist-daemon/assist_daemon --stop
+/usr/local/share/assist-daemon/assist_daemon --delete
+rm -rf /usr/local/share/assist-daemon
