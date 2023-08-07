@@ -50,6 +50,7 @@
 	"terminal.integrated.enableBell": true,
 	"terminal.integrated.showExitAlert": false,
 	"terminal.integrated.gpuAcceleration": "on",
+	"terminal.integrated.defaultProfile.osx": "bash",
 	"editor.trimAutoWhitespace": false,
 	"editor.showFoldingControls": "always",
 	"editor.selectionClipboard": false, // Support for Linux middle-click selection
