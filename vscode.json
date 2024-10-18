@@ -1,9 +1,11 @@
 {
 	// dgideas@outlook.com
 	"editor.fontFamily": "Consolas, 'Ubuntu mono', 'Courier New', monospace ,'Droid Sans Fallback'",
-	// "editor.fontSize": 16,
-	// "terminal.integrated.fontSize": 16,
-	// "markdown.preview.fontSize": 16,
+	// "editor.fontSize": 18,
+	// "terminal.integrated.fontSize": 18,
+	// "markdown.preview.fontSize": 18,
+	"debug.console.fontFamily": "Consolas, 'Ubuntu mono', 'Courier New', monospace ,'Droid Sans Fallback'",
+	// "debug.console.fontSize": 18,
 	"editor.renderWhitespace": "all",
 	"editor.folding": true,
 	"editor.tabSize": 4,
