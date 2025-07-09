@@ -78,4 +78,5 @@
 	"rust-analyzer.inlayHints.parameterHints.enable": false,
 	"editor.stickyScroll.enabled": false,
 	"workbench.tree.enableStickyScroll": false,
+	"http.experimental.systemCertificatesV2": true,
 }
