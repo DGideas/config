@@ -13,5 +13,11 @@ WorkingDirectory=/
 Environment=Hello=world
 ExecStart=/bin/bash -c "echo foobar"
 
+[Service]
+Type=oneshot
+User=root
+RemainAfterExit=yes
+ExecStart=/bin/bash -c "echo foobar"
+
 [Install]
 WantedBy=multi-user.target
