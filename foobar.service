@@ -1,6 +1,6 @@
 [Unit]
 Description=Just put me on /lib/systemd/system/, then systemctl enable <it>. If the app is daemon and will exit to background, change Type to forking. If you want anyone run the service, using visudo and add ALL ALL=NOPASSWD: /usr/bin/systemctl.
-After=this_will_run_first_if_start_all.target
+After=network.target
 Wants=this_must_try_run.service
 Requires=this_must_run_success.service
 PartOf=this_will_control_me_start_or_stop.service
