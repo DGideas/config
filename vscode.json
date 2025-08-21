@@ -36,6 +36,7 @@
 		"editor.background": "#101010",
 		"editorLineNumber.activeForeground": "#99ddff",
 		"editorGutter.modifiedSecondaryBackground": "#1b81a8",
+		"editorGutter.addedSecondaryBackground": "#267626",
 		"terminal.background": "#300a24",
 		"terminal.findMatchHighlightBorder": "#507090",
 		"terminal.findMatchBorder": "#aaeeff",
