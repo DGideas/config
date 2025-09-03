@@ -6,7 +6,6 @@
 	<string>com.user.rc.local</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/bin/bash</string>
 		<string>/Users/your_username/etc/rc.local</string>
 	</array>
 	<key>RunAtLoad</key>
