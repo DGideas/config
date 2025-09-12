@@ -58,6 +58,8 @@
 	"terminal.integrated.showExitAlert": false,
 	"terminal.integrated.gpuAcceleration": "on",
 	"terminal.integrated.defaultProfile.osx": "bash",
+	"terminal.integrated.stickyScroll.enabled": false,
+	"terminal.integrated.localEchoEnabled": "off",
 	"editor.trimAutoWhitespace": false,
 	"editor.showFoldingControls": "always",
 	"editor.selectionClipboard": false, // Support for Linux middle-click selection
@@ -71,7 +73,6 @@
 	"telemetry.telemetryLevel": "off",
 	"editor.unicodeHighlight.ambiguousCharacters": false,
 	"editor.bracketPairColorization.enabled": false,
-	"terminal.integrated.localEchoEnabled": "off",
 	"[rust]": {
 		"editor.defaultFormatter": "rust-lang.rust-analyzer",
 		"editor.formatOnSave": true
