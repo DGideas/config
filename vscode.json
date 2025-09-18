@@ -84,4 +84,7 @@
 	"workbench.tree.enableStickyScroll": false,
 	"http.experimental.systemCertificatesV2": true,
 	"chat.disableAIFeatures": true, // Works with keybindings.json
+	"github.copilot.enable": {
+		"*": true,
+	},
 }
