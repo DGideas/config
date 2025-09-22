@@ -41,6 +41,7 @@
 		"terminal.background": "#300a24",
 		"terminal.findMatchHighlightBorder": "#507090",
 		"terminal.findMatchBorder": "#aaeeff",
+		"git.blame.editorDecorationForeground": "#606060",
 	},
 	"typescript.check.npmIsInstalled": false,
 	"window.restoreWindows": "none",
@@ -63,12 +64,8 @@
 	"editor.trimAutoWhitespace": false,
 	"editor.showFoldingControls": "always",
 	"editor.selectionClipboard": false, // Support for Linux middle-click selection
-	"gitlens.hovers.currentLine.over": "line",
-	"gitlens.codeLens.enabled": false,
-	"gitlens.statusBar.enabled": false,
-	"gitlens.defaultDateStyle": "absolute",
-	"gitlens.blame.format": "${date}, ${author|14}",
-	"gitlens.blame.dateFormat": "YYYY",
+	"git.blame.editorDecoration.enabled": true,
+	"git.blame.editorDecoration.template": "${subject}, ${authorName} (${authorDateAgo})",
 	"workbench.editor.untitled.hint": "hidden", // 1.56+
 	"telemetry.telemetryLevel": "off",
 	"editor.unicodeHighlight.ambiguousCharacters": false,
