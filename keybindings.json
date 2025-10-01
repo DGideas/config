@@ -13,6 +13,11 @@
 	{
 		"key": "shift+cmd+i",
 		"command": "workbench.action.toggleAuxiliaryBar",
-		"when": "config.chat.disableAIFeatures",
+		"when": "config.chat.disableAIFeatures", // Optional
 	},
+	{
+		"key": "shift+cmd+i",
+		"command": "-workbench.action.chat.openagent",
+		"when": "config.chat.agent.enabled && !chatSetupDisabled && !chatSetupHidden"
+	}
 ]
