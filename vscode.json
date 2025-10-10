@@ -55,7 +55,6 @@
 	"git.enableSmartCommit": true,
 	"html.autoClosingTags": false,
 	"git.ignoreMissingGitWarning": true,
-	// "terminal.integrated.fontSize": 16,
 	"terminal.integrated.enableBell": true,
 	"terminal.integrated.showExitAlert": false,
 	"terminal.integrated.gpuAcceleration": "on",
@@ -81,8 +80,9 @@
 	"editor.stickyScroll.enabled": false,
 	"workbench.tree.enableStickyScroll": false,
 	"http.experimental.systemCertificatesV2": true,
-	"chat.disableAIFeatures": true, // Works with keybindings.json
+	"chat.disableAIFeatures": false,
 	"github.copilot.enable": {
 		"*": true,
 	},
+	"chat.useNestedAgentsMdFiles": true,
 }
