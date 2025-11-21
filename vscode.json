@@ -66,7 +66,6 @@
 	"editor.selectionClipboard": false, // Support for Linux middle-click selection
 	"git.blame.editorDecoration.enabled": true,
 	"git.blame.editorDecoration.template": "${subject}, ${authorName} (${authorDateAgo})",
-	"workbench.editor.untitled.hint": "hidden", // 1.56+
 	"telemetry.telemetryLevel": "off",
 	"editor.unicodeHighlight.ambiguousCharacters": false,
 	"editor.bracketPairColorization.enabled": false,
