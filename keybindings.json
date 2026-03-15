@@ -31,6 +31,6 @@
     },
 	{
 		"key": "ctrl+cmd+f5",
-		"command": "workbench.action.tasks.runTask"
+		"command": "workbench.action.debug.selectandstart"
 	}
 ]
