@@ -86,4 +86,5 @@
 	"chat.useNestedAgentsMdFiles": true,
 	"chat.useAgentSkills": true,
 	"chat.requestQueuing.defaultAction": "queue",
+	"chat.agent.maxRequests": 50,
 }
