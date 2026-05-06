@@ -44,7 +44,6 @@
 		"terminal.findMatchBorder": "#aaeeff",
 		"git.blame.editorDecorationForeground": "#606060",
 	},
-	"typescript.check.npmIsInstalled": false,
 	"window.restoreWindows": "none",
 	"editor.minimap.showSlider": "always",
 	"editor.mouseWheelZoom": false,
