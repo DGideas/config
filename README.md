@@ -18,6 +18,8 @@ wget -qO- https://raw.githubusercontent.com/DGideas/config/master/one_key_bbr.sh
 /usr/local/qcloud/stargate/admin/uninstall.sh
 /usr/local/qcloud/YunJing/uninst.sh
 /usr/local/qcloud/monitor/barad/admin/uninstall.sh
+/usr/local/qcloud/stargate/admin/uninstall.sh
+rm -f /etc/cron.d/sgagenttask
 ```
 
 ## 删除阿里云云盾
