@@ -16,3 +16,6 @@ macos-titlebar-style = tabs
 macos-titlebar-proxy-icon = hidden
 macos-option-as-alt = true
 window-step-resize = true
+
+keybind = alt+enter=ignore
+keybind = command+enter=ignore
