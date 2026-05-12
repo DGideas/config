@@ -1,0 +1,12 @@
+command = /opt/homebrew/bin/bash -li
+window-height = 24
+window-width = 80
+window-position-x = 100
+window-position-y = 100
+theme = Ubuntu
+font-family = "Ubuntu Mono"
+font-size = 18
+cursor-style = block
+shell-integration-features = no-cursor
+macos-icon = chalkboard
+macos-secure-input-indication = false
