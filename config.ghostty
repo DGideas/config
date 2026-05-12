@@ -12,3 +12,7 @@ cursor-style = block
 shell-integration-features = no-cursor
 macos-icon = chalkboard
 macos-secure-input-indication = false
+macos-titlebar-style = tabs
+macos-titlebar-proxy-icon = hidden
+macos-option-as-alt = true
+window-step-resize = true
