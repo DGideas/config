@@ -86,4 +86,6 @@
 	"chat.useAgentSkills": true,
 	"chat.requestQueuing.defaultAction": "queue",
 	"chat.agent.maxRequests": 50,
+	"chat.tools.compressOutput.enabled": true,
+	"chat.agentHost.byokModels.enabled": true,
 }
